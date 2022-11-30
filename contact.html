@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> 
+    
+    <style>
+.btn-group button {
+background-color: gray; 
+border:black 1px solid gray; 
+color: white; 
+padding: 10px 24px; 
+cursor: pointer; 
+width: 50%; 
+display: block; 
+text-align: center;
+}
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #000000;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: rgb(243, 193, 28);
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 20px 0;
+  border: none;
+  background: #bebebe;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #bebebe;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+        </style>
+        </head>
+        <body>
+           <div class="banner"></div>
+            <div class="container">
+        <div class="topnav">
+        
+          <a class="active" href="home.html">Home</a>
+            <a href="home.html">T-Shirts</a>
+                <a href="sweat.html">Sweatshirts</a>
+                    <a href="longSleeves.html">Long-Sleeves</a>
+                    </div>
+                                             
+    </div>
+        <div style="padding-left:16px">
+          <h2 style="text-align: center;">Contact us </h2>
+          <p style="text-align: center;">We strive to do our best and provide premium service and prices. Do you need extra assistance? Want to leave some feedback? Or do you wish to contact 
+        us direct?</p>
+        <div class="btn-group">
+        <button style= "display:block; margin: 0 auto;" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScnSNLEEMr9PzNjbA7ZOvLketMuzQL2bCcP8g_37M7QausX8g/viewform?usp=sf_link';"> Submit a Ticket</button>
+        <button style= "display:block; margin: 0 auto;" onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSe6c6zn8H5JDi6EMBZAo7b-XDZ9P3cIdNiAO6Xi07J4Q9QEyg/viewform?usp=sf_link';"> Take our Survey</button>
+        <button style= "display:block; margin: 0 auto;"class="open-button" onclick="openForm()">Chat Now</button>
+        </div>
+</div>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+        </div>
+    </div>
+        <footer>
+            <a href="contact.html">Contact Us</a>
+            <a href="about.html">About Us</a>
+            
+            <a href="https://www.facebook.com">Facebook</a>
+            <a href="https://www.twitter.com">Twitter</a>
+            <a href="https://www.instagram.com">Instagram</a>
+            <a href="https://www.tiktok.com">Tik-Tok</a>
+        </footer>
+        </body>
+        </html>

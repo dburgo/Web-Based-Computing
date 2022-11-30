@@ -1,0 +1,81 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: goldenrod;
+    background-attachment: fixed;
+    background-image: url(Login_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background-position: center;
+  }
+  .banner {
+      background-image: url(midastouch.jpg);
+      background-color: #333;
+      min-height: 250px;
+      min-width: none;
+      background-position: center;
+background-repeat: no-repeat;
+background-size: 980px 200px;
+position: center;
+  }
+  #topnav{
+
+    position:absolute;
+bottom:20px;
+  }
+  .container {
+      position: center;
+      text-align: center;
+             
+}
+  
+  
+  .topnav {
+    overflow: hidden;
+    background-position-x: center;
+    background-color: #333;
+    text-align: center;
+  }
+  
+.topnav {
+overflow: hidden;
+background-color: #333;
+padding-top: 5px;
+
+}
+
+/* Navbar links */
+.topnav a {
+float: center;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+
+
+}
+
+  
+  .topnav a.active {
+    background-color: #f5b220;
+    color: white;
+  }
+  
+  footer {
+      text-align: center;
+      padding: 3px;
+background-color: rgb(206, 157, 23);
+color: white;
+
+}

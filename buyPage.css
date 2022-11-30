@@ -1,0 +1,38 @@
+#products{
+    color: rgb(4, 4, 4);
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    border: 20px solid gray;
+    margin-top: 18px;
+}
+
+.product{
+    background-color: rgb(230, 231, 225);
+    font-size: 18px;
+    height: 30px;
+    width: 300px;
+}
+
+.button{
+    height: 35px;
+    background-color: rgb(111, 197, 111);
+    border : 0px;
+    color: white;
+    width: 300px;
+}
+
+.display-div{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 275px;
+    padding: 20px;
+    border: 20px solid gray;
+    font-size: 18px;
+    font-weight: bold;
+}
